@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Programming</title>
+</head>
+<body>
+<header>
+	<h1>Web Programming</h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="#week1">Week1</a></li>
+		<li><a href="#week2">Week2</a></li>
+		<li><a href="#week3">Week3</a></li>
+	</ul>
+	<hr><hr>
+</nav>
+<main>
+	<section>
+		<h3>웹에 관하여</h3>
+		<details>웹의 기본 목적은 한 컴퓨터에서 만든 문서를 다른 컴퓨터에서 쉽게 볼 수 있게 하는 것이다.<summary>웹의 기본 목적</summary></details>
+		<details>전 세계의 컴퓨터들을 인터넷으로 연결한 시스템을 www, 즉 웹이라고 부른다.<summary>왜 Why?</summary></details>
+		<br>
+	</section>
+	<section>
+		<table border="1">
+			<caption><b>Weekly Schedule</caption>
+			<tr>
+				<th>Week</th>
+				<th>Date</th>
+				<th>Contents</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Sept.2</td>
+				<td>
+					<ul>
+						<li>강의 개요</li>
+						<li>웹의 개념과 구조</li>
+						<li>Visual Studio Code</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Sept.9</td>
+				<td>HTML Review</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Sept.16</td>
+				<td>CSS Review</td>
+			</tr>
+		</table>
+		<br><hr>
+	</section>
+	<section>
+		<ol>
+            <li id="week1"><b>Week 1</li>
+            <ul>
+                <li><a href="file:///C:/Users/SAMSUNG/OneDrive/%EB%AC%B8%EC%84%9C/WebProgramming/Syllabus.pdf" target="_blank"> 강의 개요</a></li>
+                <li><a href="file:///C:/Users/SAMSUNG/OneDrive/%EB%AC%B8%EC%84%9C/WebProgramming/%EC%9B%B9%EC%9D%98%EA%B0%9C%EB%85%90%EA%B3%BC%EA%B5%AC%EC%A1%B0.pdf" target="_blank">웹의 개념과 구조</a></li>
+                <li><a href="https://code.visualstudio.com/download" target="_blank"> Visual Studio Code</a></li>
+                <ol>
+                    <li>설치</li>
+                    <li>유용한 plug-ins</li>
+                    <ul>
+                        <li>Material theme</li>
+                        <li>Prettier</li>
+                        <li>indent-rainbow</li>
+                        <li>Auto Rename Tag</li>
+                        <li>HTML CSS Support</li>
+                        <li>Live Server</li>
+                    </ul>
+                    <li>EMMET</li>
+                </ol>
+            </ul>
+
+            <hr>
+        	<li id="week2"><b>Week 2: HTML Review</li>
+	
+        	<h4>Input Types</h4>
+        	<u>Check Box</u><br><br>	
+        	<form>
+        		<input type="checkbox" value="1">HTML5
+        		<input type="checkbox" value="2">CSS3
+        		<input type="checkbox" value="3">JavaScript
+        	</form>
+        	<br>
+
+        	<u>Radio Button</u>
+        	<form>
+        		<input type="radio" name="1" value="1">HTML5<br>
+        		<input type="radio" name="1" value="2">CSS3<br>
+        		<input type="radio" name="1" value="3">JavaScript
+        	</form>
+        	<br>
+
+        	<u>Combo Box</u><br>
+        	<form>
+        		<select name="1">
+        			<option value="1">HTML5</option>
+        			<option value="2">CSS3</option>
+        			<option value="3">JavaScript</option>
+        		</select>
+        	</form>
+
+        	<hr>
+        	<li id="week3"><b>Week 3: CSS Review</li>
+		</ol>
+	</section>
+		
+</main>
+
+</body>
+</html>
